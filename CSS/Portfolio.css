@@ -1,0 +1,504 @@
+@font-face{
+    src: url(../FONTS/Selima\ .ttf);
+    font-family: curBrush;
+}
+
+html {
+    scroll-behavior: smooth ;
+ }
+
+
+hr{
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0),gold,rgba(0, 0, 0, 0));
+    position: relative;
+    top: 175px;
+}
+
+body , html {
+
+    height:100%;
+    margin:0%;
+    font-size:16px;
+    font-family:"Lato",sans-serif;
+    font-weight:400;
+    line-height:1,8em;
+    color:#666
+    
+}
+
+.Img1,.Img2,.Img3,.Img4,.Img5{
+    position:relative;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Img1{
+    background-image:url('../ASSETS/pexels-fillipe-gomes-2093252.jpg');
+    min-height: 100%;
+}
+
+.Img2{
+    background-image:url("../ASSETS/pexels-aneesh-s-3370598.jpg");
+    min-height: 500px;
+}
+.Img3{
+    background-image:url('../ASSETS/pexels-jimmi-kamballur-6194591.jpg');
+    min-height: 500px;
+}
+.Img4{
+    background-image:url("../ASSETS/pexels-vijit-bagh-5399392.jpg");
+    min-height: 500px;
+}
+.Img5{
+    background-image:url("../ASSETS/pexels-firos-nv-4704302.jpg");
+    min-height: 500px;
+}
+
+h1{
+    font-size: 200px;
+    font-family: curBrush;
+    color: gold;
+    text-align: center;
+    position: relative;
+    top: 350px;
+    margin-top: 0%;
+}
+
+h2{
+    font-size: 125px;
+    font-family: curBrush;
+    color: gold;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    margin-top: 0%;
+}
+
+.Section{
+    font-size: 30px;
+    font-family:Impact, sans-serif;
+    text-align: center;
+    margin-top: 0%;
+    padding: 25px 40px;
+
+}
+
+.AbContainer{
+    display: inline;
+    justify-content: center;
+}
+
+.Profile{
+    clip-path: circle();
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    padding-top:0%;
+}
+
+/* Skills Icon Flex */
+.icon-box{
+    display:flex;
+    justify-content:center;
+}
+
+.Skills{
+    /* display:flex; */
+    padding:10px;
+
+}
+
+
+
+/* Social Icons  */
+
+
+.SLogos{
+    display: flex;
+    padding: 30px;
+    font-size: 50px;
+    justify-content:center;
+}
+
+
+.SLogos a{
+    margin: 15px;
+}
+
+.fa-facebook{
+    color: rgb(38,88,154);
+}
+
+.fa-twitter{
+    color: rgb(88, 162, 239)
+}
+
+.fa-discord{
+    color:rgb(110,133,210);
+}
+
+.fa-instagram{
+    color:rgb(157,55,135);
+}
+
+.fa-linkedin-in{
+    color:rgb(44,115,163);
+}
+
+.fa-snapchat{
+    color:rgb(247,244,0);
+}
+
+.fa-envelope{
+    color:rgb(227,65,51);
+}
+
+
+
+
+
+
+
+
+/* iPad */
+
+@media (max-width: 768px){  
+    h1{
+        font-size: 100px;
+    }
+
+    hr{
+        position: relative;
+        top: 300px;
+    }
+
+    h2{
+        font-size: 75px;
+    }
+
+    .Profile{
+        height: 225px;
+        width: 175px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+      
+    }
+
+    .AboutContainer{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .AboutPara{
+        font-size: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      
+         
+    }
+
+    .AboutHead{
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      
+        
+    }
+
+    h3{
+        font-size:  30px;
+    }
+    
+    .CU{
+        font-size: 25px;
+    }
+    .CULOGO{
+        height: 90px;
+        width: 240px;
+    }
+
+    .icon-box{
+        display: inline-block;
+    }
+
+    .DSCIMG{
+        height: 40px;
+        width: 400px;
+    }
+
+    .FDCIMG{
+        height: 150px;
+        width: 200px;
+    }
+    
+    .SLogos{
+        /* background-color: rgb(0,0,0,0.2); */
+        padding-left:0%;
+        border-radius: 20px;
+        padding-right:0%;
+        margin-left: 2px;
+        margin-right: 2px; 
+        display: flex;
+        font-size: 40px;
+        padding:0%;
+    }
+
+
+    /* Navbar */
+        
+
+
+}
+/* iPhones,Galaxy,Pixels */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) {
+    h1{
+        font-size: 100px;
+    }
+
+    hr{
+        position: relative;
+        top: 300px;
+    }
+
+    h2{
+        font-size: 75px;
+    }
+
+    .Profile{
+        height: 225px;
+        width: 175px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+      
+    }
+
+    .AboutContainer{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .AboutPara{
+        font-size: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      
+         
+    }
+
+    .AboutHead{
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      
+        
+    }
+
+    h3{
+        font-size:  30px;
+    }
+    
+    .CU{
+        font-size: 25px;
+    }
+    .CULOGO{
+        height: 90px;
+        width: 240px;
+    }
+
+    .icon-box{
+        display: inline-block;
+    }
+
+    .DSCIMG{
+        height: 30px;
+        width: 300px;
+    }
+
+    .FDCIMG{
+        height: 150px;
+        width: 200px;
+    }
+
+    .SLogos{
+        /* background-color: rgb(0,0,0,0.2); */
+        padding-left:0%;
+        border-radius: 20px;
+        padding-right:0%;
+        margin-left: 2px;
+        margin-right: 2px; 
+        display: flex;
+        font-size: 25px;
+        padding:0%;
+    }
+    /* Keep Pending */
+    
+    .EndNote{
+        font-size: 70px;
+    }
+
+
+    /* Navbar */
+
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+
+    h1{
+        font-size: 72px;
+    }
+
+    h2{
+        font-size: 60px;
+    }
+
+    .DSCIMG{
+        height: 25px;
+        width: 250px;
+    }
+
+    .SLogos{
+        font-size: 20px;
+    }
+
+    .EndNote{
+        font-size:60px;
+    }
+    .Copywright{
+        display: none;
+    }
+}
+/* Navbar Entire  */
+nav {
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	top: 0;
+	font-family: 'Impact', sans-serif;
+	padding: 0 5%;
+	height: 60px;
+	background-color: rgba(0,0,0,0.2);
+}
+nav .Logo {
+	float: left;
+	width: 40%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 35px;
+	color: gold;
+}
+nav .links {
+	float: right;
+	padding: 0;
+	margin: 0;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+nav .links li {
+	list-style: none;
+}
+nav .links a {
+	display: block;
+	font-size: 25px;
+	font-weight: bold;
+	color: gold;
+	text-decoration: none;
+}
+#nav-toggle {
+	position: absolute;
+	top: -100px;
+}
+nav .icon-burger {
+	display: none;
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+nav .icon-burger .line {
+	width: 30px;
+	height: 5px;
+	background-color: gold;
+	margin: 5px;
+	border-radius: 3px;
+	transition: all .3s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+	nav .logo {
+		float: none;
+		width: auto;
+		justify-content: center;
+	}
+	nav .links {
+		float: none;
+		position: fixed;
+		z-index: 9;
+		left: 0;
+		right: 0;
+		top: 100px;
+		bottom: 100%;
+		width: auto;
+		height: auto;
+		flex-direction: column;
+		justify-content: space-evenly;
+		background-color: rgba(0,0,0,0.2);
+		overflow: hidden;
+		box-sizing: border-box;
+		transition: all .5s ease-in-out;
+	}
+	nav .links a {
+		font-size: 20px;
+	}
+	nav :checked ~ .links {
+		bottom: 0;
+	}
+	nav .icon-burger {
+		display: block;
+	}
+	nav :checked ~ .icon-burger .line:nth-child(1) {
+		transform: translateY(10px) rotate(225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(3) {
+		transform: translateY(-10px) rotate(-225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(2) {
+		opacity: 0;
+	}
+	
+}
+
+
+/* iPad Pro Error Check */
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape)  {
+    
+    nav .links a{
+        padding-left: 20%;
+    }
+}

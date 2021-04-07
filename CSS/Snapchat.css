@@ -1,0 +1,135 @@
+body , html {
+
+    height:100%;
+    margin:0%;
+}
+
+.Overlay{
+    display:block;
+    justify-content:center;
+    margin-top:0px;
+    margin-left: auto;
+    margin-right: auto;
+    height:850px;
+    width:500px;
+    margin-bottom: 0%;
+
+}
+
+body{
+    background-color:rgb(250,252,1);
+    margin-bottom: 0%;
+}
+
+.Code{
+    display:block;
+    justify-content:center;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: -600px;
+}
+
+.iPhone{
+    display:block;
+    justify-content:center;
+    margin-top:0px;
+    margin-left: auto;
+    margin-right: auto;
+    height:900px;
+    width:550px;
+    margin-bottom: 0%;
+    position: relative;
+    top:-1200px;
+    transition: ease-in-out;
+    max-zoom: 100%;
+}
+
+
+
+
+
+
+
+
+#btn {
+    margin-top: 10px;
+    background: #222;
+    height: 50px;
+    min-width: 150px;
+    border: none;
+    border-radius: 30px;
+    color: #eee;
+    font-size: 40px;
+    font-family: 'Cookie', cursive;
+    position: relative;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+  }
+  
+  #btn #circle {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    transition: 500ms;
+  }
+  
+  .noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+  }
+  
+  #btn:hover {
+    background: transparent;
+  }
+  
+  #btn:hover #circle {
+    height: 50px;
+    width: 150px;
+    left: 0;
+    color: rgba(0,0,0);
+    border-radius: 0;
+    border-bottom: 2px solid rgba(0,0,0);
+  }
+
+
+
+
+
+
+
+
+  /* Responsive */
+
+
+  @media only screen 
+  and (min-device-width : 375px) 
+  and (max-device-width : 667px) 
+  and (width : 375px) 
+  and (height : 559px) 
+  and (orientation : portrait) 
+  {
+      .iPhone{
+          height: 800px;
+          width: 400px
+      }
+  }
+
